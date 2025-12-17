@@ -1,0 +1,49 @@
+<footer class="flex flex-col items-center bg-slate-900 text-slate-200 text-center text-surface">
+  <div class="container p-6 justify-center">
+    <div class="grid gap-4 lg:grid-cols-2">
+      <div class="mb-6 md:mb-0">
+        {% if page.lang == "en" %}
+        <h5 class="mb-2.5 font-bold uppercase">MAX GEAR LTD.</h5>
+        <p class="mb-4">
+          <i class="fa-solid fa-location-pin"></i> No. 31, Gongye 2nd Rd., Annan Dist., Tainan City 709410, Taiwan (R.O.C.)
+        </p>
+        {% else %}
+        <h5 class="mb-2.5  font-bold uppercase">瑪斯佶科技有限公司</h5>
+        <p class="mb-4">
+         <i class="fa-solid fa-location-pin"></i> 台南市安南區工業二路31號
+        </p>
+        {% endif %}
+        <p class="mb-4">
+          <i class="fa-solid fa-envelope"></i><a href="mailto:info@maxgeartw.com" class="hover:text-sky-400"> info@maxgeartw.com</a>
+        </p>
+        <p class="mb-4">
+          LINE ID：<a href="https://lin.ee/sOzcQLX" class="hover:text-sky-400 ">@226zgoio</a>
+        </p>
+      </div>
+ 
+      <div class="flex flex-wrap items-center justify-center gap-3 ">
+          <a href="{% if page.lang == 'en' %}/en/about{% else %}/about{% endif %}" class="hover:text-sky-400 ">
+            {% if page.lang == "en" %}About{% else %}關於我們{% endif %}
+          </a>
+          <i class="fa-solid fa-grip-lines-vertical text-zinc-600"></i>
+          <a href="{% if page.lang == 'en' %}/en/products{% else %}/products{% endif %}" class="hover:text-sky-400">
+            {% if page.lang == "en" %}Products & Services{% else %}產品與服務{% endif %}
+          </a>
+          <i class="fa-solid fa-grip-lines-vertical text-zinc-600" ></i>
+          <a href="{% if page.lang == 'en' %}/en/contact{% else %}/contact{% endif %}" class="hover:text-sky-400 ">
+            {% if page.lang == "en" %}Contact{% else %}聯絡我們{% endif %}
+          </a>
+      </div>
+    </div>
+  </div>
+
+  <!--Copyright section-->
+  <div class="w-full bg-black/5 p-4 text-center">
+    &copy; {{ site.time | date: "%Y" }}
+      {% if page.lang == "en" %}
+        MAX GEAR LTD. All rights reserved.
+      {% else %}
+        瑪斯佶科技有限公司 版權所有
+      {% endif %}
+  </div>
+</footer>

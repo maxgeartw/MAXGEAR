@@ -1,0 +1,56 @@
+<heaber>
+  <nav class="fixed top-0 flex w-full flex-wrap z-50 items-center justify-between bg-white/70 backdrop-blur-md text-slate-800 py-2 shadow-dark-mild lg:py-4 " data-twe-navbar-ref>
+    <div class="flex container mx-auto flex-wrap items-center justify-between px-3">
+      <div class="ms-2">
+        {% if page.lang == "en" %}
+        <a class="text-xl  dark:text-white" href="/en/">
+          <img class="me-2" src="{{ '/assets/images/MAXGEAR_LOGO.webp' | relative_url }}" style="height: 60px" alt="MAXGEAR Logo" loading="lazy" />
+        </a>
+        {% else %}
+        <a class="text-xl  dark:text-white" href="/">
+          <img class="me-2" src="{{ '/assets/images/MAXGEAR_LOGO.webp' | relative_url }}" style="height: 60px" alt="MAXGEAR Logo" loading="lazy" />
+        </a>
+        {% endif %}
+      </div>
+      <button class="block border-0 bg-transparent px-2 h-4 text-zinc/50 hover:no-underline hover:shadow-none focus:no-underline focus:shadow-none focus:outline-none focus:ring-0 lg:hidden"
+       type="button" data-twe-collapse-init data-twe-target="#navbarContent1" aria-controls="navbarContent1" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars fa-xl"></i>
+      </button>
+      <div class="!visible mt-2 hidden basis-[100%] items-center lg:mt-0 lg:mr-[30px] lg:!flex lg:basis-auto" id="navbarContent1" data-twe-collapse-item>
+        {% if page.lang == "en" %}
+        <ul class="list-style-none me-auto flex flex-col ps-0 lg:mt-1 lg:flex-row" data-twe-navbar-nav-ref>
+          <li class="my-2 ps-2 lg:my-0 lg:pe-1 lg:ps-2" data-twe-nav-item-ref>
+            <a class=" hover:text-blue-600 lg:px-2" aria-current="page" href="/en/about/" data-twe-nav-link-ref>About</a>
+          </li>
+          <li class="my-2 ps-2 lg:my-0 lg:pe-1 lg:ps-2" data-twe-nav-item-ref>
+            <a class=" hover:text-blue-600 lg:px-2" aria-current="page" href="/en/products/" data-twe-nav-link-ref>Products & Services</a>
+          </li>
+          <li class="my-2 ps-2 lg:my-0 lg:pe-1 lg:ps-2" data-twe-nav-item-ref>
+            <a class=" hover:text-blue-600 lg:px-2" aria-current="page" href="/en/contact/" data-twe-nav-link-ref>Contact</a>
+          </li>
+          <li class="my-2 ps-2 lg:my-0 lg:pe-1 lg:ps-2" data-twe-nav-item-ref>
+            <span class="hidden mx-2 text-gray-400 lg:inline">|</span>
+            <a href="/" class="hover:text-blue-600">中文</a>
+          </li>
+        </ul>
+        {% else %}
+        <ul class="list-style-none me-auto flex flex-col ps-0 lg:mt-1 lg:flex-row" data-twe-navbar-nav-ref>
+          <li class="my-2 ps-2 lg:my-0 lg:pe-1 lg:ps-2" data-twe-nav-item-ref>
+            <a class=" hover:text-blue-600 lg:px-2" aria-current="page" href="/about/" data-twe-nav-link-ref>關於我們</a>
+          </li>
+          <li class="my-2 ps-2 lg:my-0 lg:pe-1 lg:ps-2" data-twe-nav-item-ref>
+            <a class=" hover:text-blue-600 lg:px-2" aria-current="page" href="/products/" data-twe-nav-link-ref>產品與服務</a>
+          </li>
+          <li class="my-2 ps-2 lg:my-0 lg:pe-1 lg:ps-2" data-twe-nav-item-ref>
+            <a class="hover:text-blue-600 lg:px-2" aria-current="page" href="/contact/" data-twe-nav-link-ref>聯絡我們</a>
+          </li>
+          <li class="my-2 ps-2 lg:my-0 lg:pe-1 lg:ps-2" data-twe-nav-item-ref>
+            <span class="hidden mx-2 text-gray-400 lg:inline">|</span>
+            <a href="/en/" class="hover:text-blue-600">English</a>
+          </li>
+        </ul>
+        {% endif %}
+      </div>
+    </div>
+  </nav>
+</heaber>

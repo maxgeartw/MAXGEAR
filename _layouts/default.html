@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    {% include head.html %}
+  </head>
+  <body class="bg-gray-50 text-gray-800">
+    {% include header.html %}
+    <main class="min-h-screen">
+      {{ content }}
+    </main>
+    {% include footer.html %}
+    
+    <script type="text/javascript" src="{{ '/assets/js/tw-elements.umd.min.js' | relative_url }}"></script>
+
+  </body>
+</html>
