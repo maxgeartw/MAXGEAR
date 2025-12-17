@@ -1,9 +1,9 @@
 ---
 layout: default
-title: 聯絡我們｜瑪斯佶
+title: 聯絡我們 || 瑪斯佶科技 MAXGEAR
 permalink: /contact/
 lang: zh
-description: "從傳動齒輪設計到量產，我們提供一站式專業解決方案"
+description: "瑪斯佶科技 MAXGEAR 位於台灣省台南市，提供快速且彈性的客製化齒輪設計與加工服務。 "
 ---
 <div class="relative h-[30vh] md:h-[50vh] flex flex-col items-center justify-center bg-cover bg-center" style="background-image: url('/assets/images/ContactUS.webp');">
   <a href="https://www.freepik.com" target="_blank" rel="noopener noreferrer"

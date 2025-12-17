@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 產品與服務
+title: Products & Services ||  MAX GEAR LTD
 permalink: /en/products/
 lang: en
 description: "From Transmission Gear Design to Mass Production, we provide an end-to-end professional solution."

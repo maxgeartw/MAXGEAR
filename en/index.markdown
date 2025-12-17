@@ -1,6 +1,6 @@
 ---
 layout: default
-title: MAX GEAR LTD
+title: MAX GEAR LTD || Focused on Transmission Gear Design 
 lang: en
 description: "Specializing in the design and manufacturing of power transmission gears, we provide reliable solutions for diverse industries."
 ---

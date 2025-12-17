@@ -1,8 +1,11 @@
 ---
 layout: default
-title: 瑪斯佶科技有限公司
+title: 瑪斯佶科技 MAXGEAR||專注傳動齒輪設計 
 lang: zh
-description: "我們專注齒輪設計與創新製造，提供完整解決方案"
+description: "瑪斯佶科技 MAXGEAR 專注於傳動齒輪設計與軟體研發，
+  提供齒輪數據計算、齒型繪製，並支援 CNC 與 3D 列印開發驗證。
+  我們協助客戶從產品設計開始，完成開發與量產，
+  並致力於 EV 多級變速箱研發，打造高效能傳動解決方案，滿足創新與精密需求。"
 ---
 <div class="relative  h-screen flex flex-col items-center justify-center bg-cover bg-center" style="background-image: url('/assets/images/hero-index.webp');">
   <div class="relative z-10 w-full flex flex-col items-center text-center text-slate-50">  

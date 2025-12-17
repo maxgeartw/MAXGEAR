@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Contact Us｜MAX GEAR LTD
+title: Contact Us || MAX GEAR LTD
 permalink: /en/contact/
 lang: en
-description: "從傳動齒輪設計到量產，我們提供一站式專業解決方案"
+description: "Based in Tainan, Taiwan, MAXGEAR Technology provides fast and flexible customized gear design and machining services."
 ---
 <div class="relative h-[30vh] md:h-[50vh] flex flex-col items-center justify-center bg-cover bg-center" style="background-image: url('/assets/images/ContactUS.webp');">
   <a href="https://www.freepik.com" target="_blank" rel="noopener noreferrer"

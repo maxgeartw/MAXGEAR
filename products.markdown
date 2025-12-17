@@ -1,9 +1,9 @@
 ---
 layout: default
-title: 產品與服務
+title: 產品與服務 || 瑪斯佶科技 MAXGEAR
 permalink: /products/
 lang: zh
-description: "從傳動齒輪設計到量產，我們提供一站式專業解決方案"
+description: "瑪斯佶科技 MAXGEAR 從傳動齒輪設計到量產，我們提供一站式專業解決方案"
 ---
 <div class="relative h-[30vh] md:h-[50vh] flex flex-col items-center justify-center bg-cover bg-center" style="background-image: url('/assets/images/05-1-500.webp');">
   <div class="backdrop-blur-sm bg-gradient-to-r from-slate-900/40 via-slate-900/20 to-slate-900/40 w-full ">

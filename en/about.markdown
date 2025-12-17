@@ -1,9 +1,9 @@
 ---
 layout: default
-title: About Us ｜MAX GEAR LTD
+title: About Us || MAX GEAR LTD
 permalink: /en/about/
 lang: en
-description: "我們專注齒輪設計與創新製造，提供完整解決方案"
+description: "MAXGEAR Technology specializes in gear design and innovative manufacturing, delivering comprehensive end-to-end solutions."
 ---
 <div class="relative h-[30vh] md:h-[50vh] flex flex-col items-center justify-center bg-cover bg-center" style="background-image: url('/assets/images/hero-index.webp');">
   <div class="backdrop-blur-sm bg-gradient-to-r from-slate-900/40 via-slate-900/20 to-slate-900/40 w-full">
