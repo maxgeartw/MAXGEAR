@@ -1,0 +1,10 @@
+User-agent: GPTBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: anthropic-ai
+User-agent: CCBot
+User-agent: Bytespider
+Disallow: /
+
+User-agent: *
+Allow: /
